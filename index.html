@@ -14,11 +14,12 @@
       href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Playfair+Display&family=Roboto:wght@300;400&display=swap"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header class="header">
+      <div class="container">
+        <div class="header-information">
       <img class="logo" src="./images/nike_img.svg" alt="logo" />
       <nav class="nav">
         <ul class="list nav-list">
@@ -66,7 +67,7 @@
           </li>
         </ul>
       </nav>
-      <ul class="language-list">
+      <ul class="list language-list">
         <li class="language-list-item">
           <button type="button" class="language-list-btn">Ua</button>
         </li>
@@ -74,9 +75,10 @@
           <button type="button" class="language-list-btn">Eng</button>
         </li>
       </ul>
+      </div>
+      </div> 
     </header>
     <main>
-
       <section class="hero">
         <p class="hero-subtitle">С&R</p>
         <h2 class="hero-hypertitle">ColoRawe</h2>
@@ -92,7 +94,7 @@
       <section class="advantages">
         <ul class="list advantages-list">
           <li class="advantages-item">
-            <h2 class="advantages-title">Premium Quality</h2>
+            <h3 class="advantages-title">Premium Quality</h3>
             <img
               class="advantages-img"
               src="./images/premium_quality.png"
@@ -105,10 +107,10 @@
               src="./images/indelible_paint.png"
               alt=""
             />
-            <h2 class="advantages-title">Indelible paint</h2>
+            <h3 class="advantages-title">Indelible paint</h3>
           </li>
           <li class="advantages-item">
-            <h2 class="advantages-title">Fast shipping</h2>
+            <h3 class="advantages-title">Fast shipping</h3>
             <img
               class="advantages-img"
               src="./images/fast_shipping.png"
@@ -125,27 +127,37 @@
               Sneakers are very comfortable and well painted, nothing has worn
               off in a year.
             </p>
-            <p class="date">25.11</p>
+            <time class="date">25.11</time>
+            <img src="./images/jonh_teylor.jpg" alt="John Teylor">
+            <p class="reviewer-name">John Teylor</p>
+            <p class="reviews-registration-date">With us from 2018</p>
           </li>
           <li class="reviews-item">
             <p class="reviews-text">
               I'm very happy with this color scheme. They match all my clothes.
             </p>
-            <p class="date">05.01</p>
+            <time class="date">05.01</time>
+            <img src="./images/elizabet_garsia.png" alt="Elizabeth Garsia">
+            <p class="reviewer-name">Elizabeth Garsia</p>
+            <p class="reviews-registration-date">With us from 2020</p>
           </li>
           <li class="reviews-item">
             <p class="reviews-text">
               Just right if you need to go to a party. I use them actively, the
               paint is super.
             </p>
-            <p class="date">18.06</p>
+            <time class="date">18.06</time>
+            <img src="./images/tom_maquare.png" alt="Tom Maquare">
+            <p class="reviewer-name">Tom Maquare</p>
+            <p class="reviews-registration-date">With us from 2019</p>
           </li>
         </ul>
       </section>
 
       <section class="order">
         <form class="order-form">
-            <input class="order-input" type="text" placeholder="Write your email">
+            <input class="order-input" type="email" placeholder="Write your email">
+            <button class="form-button" type="submit">Confirm</button>
             <input class="order-input" type="text" placeholder="Your Country">
             <input class="order-input" type="text" placeholder="Your City">
             <input class="order-input" type="text" placeholder="Your Adress">
@@ -154,23 +166,25 @@
       </section>
     </main>
     <footer>
-      <section class="footer-content">
-        <ul class="list question-list">
-          <li class="question-item"><p class="question-text">Have a question?</p></li>
-          <li class="question-item"><p class="question-text">Have a proposal for cooperation?</p></li>
-          <li class="question-item"><p class="question-text">Advertising questions?</p></li>
-        </ul>
         <address class="address">
-        <ul class="list address-list">
-          <li class="address-item"><a href="ColoRawe_support@gmail.com">ColoRawe_support@gmail.com</a></li>
-          <li class="address-item"><a href="ColoRawe_Cooperation@gmail.com">ColoRawe_Cooperation@gmail.com</a></li>
-          <li class="address-item"><a href="ColoRawe_Advertising@gmail.com">ColoRawe_Advertising@gmail.com</a></li>
+          <ul class="list address-list">
+          <li class="address-item">
+            <p class="address-text">Have a question?</p>
+            <a class="address-link" href="ColoRawe_support@gmail.com">ColoRawe_support@gmail.com</a>
+          </li>
+          <li class="address-item">
+            <p class="address-text">Have a proposal for cooperation?</p>
+            <a class="address-link" href="ColoRawe_Cooperation@gmail.com">ColoRawe_Cooperation@gmail.com</a>
+          </li>
+          <li class="address-item">
+            <p class="address-text">Advertising questions?</p>
+            <a class="address-link" href="ColoRawe_Advertising@gmail.com">ColoRawe_Advertising@gmail.com</a>
+          </li>
         </ul>
         </address>
         <p>2022 ColoRawe @All rights reserved</p>
         <p>United States</p>
         <p>С&R</p>
-      </section>
     </footer>
   </body>
 </html>

@@ -1,0 +1,147 @@
+:root {
+    --accent-color: #C7C7C7;
+        --main-color:#FFF;
+        --add-color:#959595;
+        --main-bd-color:#8E32C6;
+}
+body {
+    font-family: Roboto;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.list {
+    list-style: none;
+    padding: 0;
+}
+.link {
+    text-decoration: none;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+
+.container {
+    width: 1130px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header {
+    padding-top: 30px;
+    padding-bottom: 33px;
+    background: #012D63;
+}
+.logo {
+    margin-right: 152px;
+}
+.nav-list {
+    gap: 29px;
+   margin-right: 73px;
+}
+.nav-list-link {
+    color: var(--accent-color);
+        font-size: 24px;
+        font-weight: 300;
+        line-height: normal;
+        text-decoration: none;
+        display: flex;
+}
+.nav-list-link:hover,
+.nav-link-link:focus {
+    color: var(--main-color);
+    cursor: pointer;
+    font-weight: 400;
+}
+.language-list-btn {
+    color: #DCDCDC;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: normal;
+    background: #012D63;
+    border: none;
+}
+.header-information,.nav-list,.language-list {
+    display: flex;
+    align-items: center;
+}
+.hero {
+    background: url(../images/nike_hero_bg.jpg);
+    background-size: cover;
+}
+.hero-subtitle {
+    color: #FFF;
+        font-family: PT Serif;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+.hero-hypertitle {
+    color: #FFF;
+        font-family: Playfair Display;
+        font-size: 144px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+.hero-title {
+    color: #FFF;
+        font-family: Playfair Display;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+.hero-text {
+    color: #FFF;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+.hero-btn {
+    color: #FFF;
+        font-family: Roboto;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    border-radius: 10px;
+        background: #8E32C6;
+        padding: 20px 61px 19px;
+}
+.hero-subtitle::before {
+    content: '';
+    background: url(../image/nike_svg.svg);
+    width: 160px;
+    height: 120px;
+    display: block;
+    background-size: cover;
+}
