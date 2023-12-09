@@ -149,7 +149,8 @@ img {
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-    border-radius: 10px;
+        border: none;
+        border-radius: 10px;
         background: #8E32C6;
         padding: 20px 61px 19px;
         margin-top: 41px;
