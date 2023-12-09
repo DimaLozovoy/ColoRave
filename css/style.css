@@ -62,7 +62,6 @@ img {
 }
 .nav-list {
     gap: 29px;
-   margin-right: 73px;
 }
 .nav-list-link {
     color: var(--accent-color);
@@ -82,14 +81,22 @@ img {
     color: #DCDCDC;
     font-size: 24px;
     font-weight: 300;
-    line-height: normal;
     background: #012D63;
     border: none;
+}
+.language-list-btn:hover {
+    color: var(--main-color);
+    font-size: 24px;
+    font-weight: 400;
+}
+.language-list {
+    margin-left:auto;
 }
 .header-information,.nav-list,.language-list {
     display: flex;
     align-items: center;
 }
+/* end of header */
 .hero {
     background: url(../images/nike_hero_bg.jpg);
     background-size: cover;
@@ -101,6 +108,8 @@ img {
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        margin-left: 39px;
+        margin-top: -25px;
 }
 .hero-hypertitle {
     color: #FFF;
@@ -109,6 +118,8 @@ img {
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        margin-left: -15px;
+        margin-top: -20px;
 }
 .hero-title {
     color: #FFF;
@@ -117,6 +128,7 @@ img {
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        margin-top: -30px;
 }
 .hero-text {
     color: #FFF;
@@ -125,6 +137,7 @@ img {
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        margin-top: 12px;
 }
 .hero-btn {
     color: #FFF;
@@ -136,12 +149,45 @@ img {
     border-radius: 10px;
         background: #8E32C6;
         padding: 20px 61px 19px;
+        margin-top: 41px;
 }
-.hero-subtitle::before {
-    content: '';
-    background: url(../image/nike_svg.svg);
+.hero-logo {
     width: 160px;
-    height: 120px;
-    display: block;
+    margin-left: 13px;
+}
+.hero-information {
+    padding: 0;
+    padding-top: 94px;
+    padding-bottom: 183px;
+}
+/* end of first section */
+.advantages {
+    background-image: url(../images/nike_sec_bg.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
+    padding: 105px 0;
+}
+.advantages-list {
+    display: flex;
+    border: 5px solid var(--main-bd-color);
+    justify-content: space-between;
+}
+.advantages-item {
+    padding: 25px 0;
+}
+.advantages-item:first-child {
+    padding-left: 50px;
+}
+.advantages-item:last-child {
+    padding-right: 50px;
+}
+.advantages-title {
+    color: var(--main-color);
+    color: #FFF;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
