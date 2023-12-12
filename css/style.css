@@ -101,12 +101,13 @@ img {
                                         /* end of header */
 
 .hero {
+    display: flex;
     background: url(../images/nike_hero_bg.jpg);
     background-size: cover;
     padding: 0;
     padding-left: 30px;
     padding-top: 170px;
-    padding-bottom: 200px;
+    padding-bottom: 190px;
 }
 .hero-subtitle {
     color: #FFF;
