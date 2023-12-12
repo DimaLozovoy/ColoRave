@@ -176,16 +176,24 @@ img {
 .advantages-list {
     display: flex;
     border: 5px solid var(--main-bd-color);
-    justify-content: space-between;
+    align-items: center;
 }
 .advantages-item {
     padding: 25px 0;
 }
-.advantages-item:first-child {
+.advantages-item:nth-child(1) {
     padding-left: 50px;
+    margin-right: 50px;
 }
-.advantages-item:last-child {
+.advantages-item:nth-child(2) {
+    padding: 0 95px;
+    border-right: 1px solid var(--main-color);
+    border-left: 1px solid var(--main-color);
+    height: 346px;
+}
+.advantages-item:nth-child(3) {
     padding-right: 50px;
+    margin-left: 50px;
 }
 .advantages-title {
     color: var(--main-color);
