@@ -103,6 +103,10 @@ img {
 .hero {
     background: url(../images/nike_hero_bg.jpg);
     background-size: cover;
+    padding: 0;
+    padding-left: 30px;
+    padding-top: 170px;
+    padding-bottom: 200px;
 }
 .hero-subtitle {
     color: #FFF;
@@ -158,11 +162,6 @@ img {
 .hero-logo {
     width: 160px;
     margin-left: 13px;
-}
-.hero-information {
-    padding: 0;
-    padding-top: 94px;
-    padding-bottom: 183px;
 }
 
                                 /* end of first section */
