@@ -349,7 +349,7 @@ img {
     border: none;
     outline: none;
 }
-.order-input:first-child:hover {
+.order-input:hover {
     width: 690px;
     height: 60px;
 }
