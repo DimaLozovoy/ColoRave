@@ -98,16 +98,17 @@ img {
     align-items: center;
 }
 
-                                        /* end of header */
+                                        /* hero */
 
 .hero {
     display: flex;
     background: url(../images/nike_hero_bg.jpg);
+    background-position: center;
     background-size: cover;
     padding: 0;
     padding-left: 30px;
-    padding-top: 170px;
-    padding-bottom: 190px;
+    padding-top: 91px;
+    padding-bottom: 183px;
 }
 .hero-subtitle {
     color: #FFF;
@@ -165,7 +166,7 @@ img {
     margin-left: 13px;
 }
 
-                                /* end of first section */
+                                         /* advantages */
 
 .advantages {
     background-image: url(../images/nike_sec_bg.jpg);
@@ -204,4 +205,182 @@ img {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+                                        /* rewievs */
+
+.reviews {
+    background-image: url(../images/nike_bush.png), url(../images/nike_reviews_bg.jpg);
+    background-position: bottom left, center;
+    background-repeat: no-repeat;
+    background-size: 226px 380px, cover;
+    padding-top: 24px;
+    padding-bottom: 114px;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+}
+.reviews-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.reviews-list {
+    display: flex;
+    gap: 93px;
+    margin-top: 24px;
+    justify-content: center;
+    align-items: center;
+}
+.reviews-item {
+    border-radius: 15px;
+    padding-top: 49px;
+    padding-bottom: 29px;
+    flex-basis: 255px;
+}
+.reviews-item:nth-child(1) {
+    padding-left: 13px;
+    padding-right: 14px; 
+    background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+    box-shadow: 0px 14px 0px -5px #7B54B2, 0px 30px 0px -13px #533978;
+}    
+.reviews-item:nth-child(2)  {
+    padding-left: 18px;
+    padding-right: 9px;
+    background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+    box-shadow: 0px 14px 0px -5px #9159B1, 0px 30px 0px -13px #61337C ;
+}
+.reviews-item:nth-child(3) {
+    padding-left: 18px;
+    padding-right: 9px;
+    background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
+    box-shadow: 0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;
+}
+.reviews-text {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* width: 228px;
+    height: 112px; */
+}
+.account-info {
+    margin-top: 47px;
+    display: flex;
+}
+.date {
+    color: #D8D8D8;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 8px;
+}
+.rewiever {
+    border-radius: 50%;
+}
+.reviewer-name {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 5px;
+}
+.reviews-registration-date {
+    color: #D8D8D8;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 5px;
+}
+
+                                    /* order (попа баліііііііт) */
+
+.order {
+    background-image: url(../images/nike_last_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-bottom: 37px;
+}
+.order-title {
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+.order-form {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 33px;
+}
+.form-wrapper {
+    position: relative;
+}
+.order-input {
+    width: 580px;
+    height: 50px;
+    color: var(--add-color);
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 50px;
+    padding: 11px 24px;
+    border: none;
+    outline: none;
+}
+.order-input:first-child:hover {
+    width: 690px;
+    height: 60px;
+}
+.form-button {
+    color: #8D8D8D;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: none;
+    border: none;
+    position: absolute; 
+    top: 7.8px;
+    right: 50px;
+
+    text-align: center;
+}
+.order-input:focus + .form-button {
+    top: 13.16px;
+    right: 78.57px;
+}
+.order-btn {
+    padding: 20px 48px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    border-radius: 16px;
+    background: #8E32C6;
 }
