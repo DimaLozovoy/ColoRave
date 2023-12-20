@@ -383,3 +383,39 @@ img {
     border-radius: 16px;
     background: #8E32C6;
 }
+
+                                               /* footer (боляче(((( ) */
+
+.footer {
+    background-color: #021635;
+}
+.address {
+    padding-top: 45px;
+    padding-bottom: 50px;
+}
+.address-list, .address-item {
+    display: flex;
+    flex-direction: column;
+}
+/* wtf */
+.address-text, .address-link {
+   display: inline;
+}
+.address-text {
+    color: var(--main-color);
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.address-link {
+    color: var(--main-color);
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    align-self: flex-end;
+}
