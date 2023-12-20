@@ -85,10 +85,11 @@ img {
     background: #012D63;
     border: none;
 }
-.language-list-btn:hover {
+.language-list-btn:hover, .language-list-btn:focus{
     color: var(--main-color);
     font-size: 24px;
     font-weight: 400;
+    cursor: pointer;
 }
 .language-list {
     margin-left:auto;
@@ -106,7 +107,6 @@ img {
     background-position: center;
     background-size: cover;
     padding: 0;
-    padding-left: 30px;
     padding-top: 91px;
     padding-bottom: 183px;
 }
@@ -184,7 +184,7 @@ img {
 }
 .advantages-item:nth-child(1) {
     padding-left: 50px;
-    margin-right: 50px;
+    padding-right: 50px;
 }
 .advantages-item:nth-child(2) {
     padding: 0 95px;
@@ -194,7 +194,7 @@ img {
 }
 .advantages-item:nth-child(3) {
     padding-right: 50px;
-    margin-left: 50px;
+    padding-left: 50px;
 }
 .advantages-title {
     color: var(--main-color);
@@ -337,18 +337,21 @@ img {
 }
 .order-input {
     color: var(--add-color);
+    width: 580px;
     font-family: Roboto;
     font-size: 28px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     border-radius: 50px;
-    padding: 11px 417px 11px 24px;
+    padding: 11px 0;
+    padding-left: 24px;
     border: none;
     outline: none;
 }
-.order-input:hover {
-    transform: scale(1.1)
+.order-input:hover, .order-input:focus{
+    cursor: pointer;
+    transform: scale(1.2)
 }
 .form-button {
     color: #8D8D8D;
