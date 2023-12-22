@@ -305,7 +305,7 @@ img {
     margin-left: 5px;
 }
 
-                                    /* order (попа баліііііііт) */
+                                    /* order*/
 
 .order {
     background-image: url(../images/nike_last_bg.jpg);
@@ -384,20 +384,25 @@ img {
     background: #8E32C6;
 }
 
-                                               /* footer (боляче(((( ) */
+                                               /* footer*/
 
 .footer {
     background-color: #021635;
-}
-.address {
     padding-top: 45px;
     padding-bottom: 50px;
 }
-.address-list, .address-item {
-    display: flex;
-    flex-direction: column;
+.address {
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--add-color);
 }
-/* wtf */
+.address-item:not(:last-child) {
+    margin-bottom: 10px;
+}
+.address-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
 .address-text, .address-link {
    display: inline;
 }
@@ -417,5 +422,39 @@ img {
     font-weight: 400;
     line-height: normal;
     text-decoration-line: underline;
-    align-self: flex-end;
+}
+.privacy-policy {
+    display: flex;
+    justify-content: space-between;
+}
+.creator-info {
+    padding-top: 24px;
+}
+.copyright {
+    color: var(--main-color);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.country {
+    color: var(--main-color);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;  
+    margin-top: 7px;
+}
+.cr-logo {
+    color: #FFF;
+    font-family: PT Serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -15px;
+}
+.footer-logo {
+    height: 81px;
+    margin-left: -25px;
 }
