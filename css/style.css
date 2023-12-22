@@ -395,12 +395,12 @@ img {
     padding-bottom: 20px;
     border-bottom: 1px solid var(--add-color);
 }
-.address-item:not(:last-child) {
-    margin-bottom: 10px;
-}
 .address-item {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 10px;
+}
+.address-item:not(:last-child) {
     margin-bottom: 10px;
 }
 .address-text, .address-link {
