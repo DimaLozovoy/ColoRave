@@ -398,7 +398,6 @@ img {
 .address-item {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10px;
 }
 .address-item:not(:last-child) {
     margin-bottom: 10px;
