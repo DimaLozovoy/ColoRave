@@ -44,9 +44,6 @@ img {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-
-
-
 .container {
     width: 1130px;
     padding: 0 15px;
@@ -68,14 +65,12 @@ img {
     color: var(--accent-color);
         font-size: 24px;
         font-weight: 300;
-        line-height: normal;
         text-decoration: none;
-        display: flex;
+        transition: 0.7s;
 }
 .nav-list-link:hover,
 .nav-link-link:focus {
     color: var(--main-color);
-    cursor: pointer;
     font-weight: 400;
 }
 .language-list-btn {
@@ -87,8 +82,6 @@ img {
 }
 .language-list-btn:hover, .language-list-btn:focus{
     color: var(--main-color);
-    font-size: 24px;
-    font-weight: 400;
     cursor: pointer;
 }
 .language-list {
@@ -98,9 +91,7 @@ img {
     display: flex;
     align-items: center;
 }
-
                                         /* hero */
-
 .hero {
     display: flex;
     background: url(../images/nike_hero_bg.jpg);
@@ -114,9 +105,6 @@ img {
     color: #FFF;
         font-family: PT Serif;
         font-size: 48px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
         margin-left: 39px;
         margin-top: -25px;
 }
@@ -124,7 +112,6 @@ img {
     color: #FFF;
         font-family: Playfair Display;
         font-size: 144px;
-        font-style: normal;
         font-weight: 400;
         line-height: normal;
         margin-left: -15px;
@@ -134,40 +121,35 @@ img {
     color: #FFF;
         font-family: Playfair Display;
         font-size: 72px;
-        font-style: normal;
         font-weight: 400;
         line-height: normal;
         margin-top: -30px;
 }
 .hero-text {
     color: #FFF;
-        font-family: Roboto;
         font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
         line-height: normal;
         margin-top: 12px;
 }
 .hero-btn {
     color: #FFF;
-        font-family: Roboto;
         font-size: 24px;
-        font-style: normal;
-        font-weight: 400;
         line-height: normal;
         border: none;
         border-radius: 10px;
         background: #8E32C6;
         padding: 20px 61px 19px;
         margin-top: 41px;
+        transition: 0.7s;
+}
+.hero-btn:hover, .hero-btn:focus {
+    background-color: #012D63;
 }
 .hero-logo {
     width: 160px;
     margin-left: 13px;
 }
-
                                          /* advantages */
-
 .advantages {
     background-image: url(../images/nike_sec_bg.jpg);
     background-repeat: no-repeat;
@@ -198,17 +180,13 @@ img {
 }
 .advantages-title {
     color: var(--main-color);
-    color: #FFF;
     text-align: center;
     font-family: Playfair Display;
     font-size: 36px;
-    font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
-
                                         /* rewievs */
-
 .reviews {
     background-image: url(../images/nike_bush.png), url(../images/nike_reviews_bg.jpg);
     background-position: bottom left, center;
@@ -224,7 +202,6 @@ img {
     text-align: center;
     font-family: Playfair Display;
     font-size: 48px;
-    font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
@@ -262,13 +239,8 @@ img {
 }
 .reviews-text {
     color: #FFF;
-    font-family: Roboto;
     font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
     line-height: normal;
-    /* width: 228px;
-    height: 112px; */
 }
 .account-info {
     margin-top: 47px;
@@ -276,37 +248,25 @@ img {
 }
 .date {
     color: #D8D8D8;
-    font-family: Roboto;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: 8px;
 }
 .rewiever {
     border-radius: 50%;
 }
 .reviewer-name {
     color: #FFF;
-    font-family: Roboto;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: normal;
     margin-left: 5px;
 }
 .reviews-registration-date {
     color: #D8D8D8;
-    font-family: Roboto;
     font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
     line-height: normal;
     margin-left: 5px;
 }
-
                                     /* order*/
-
 .order {
     background-image: url(../images/nike_last_bg.jpg);
     background-position: center;
@@ -319,7 +279,6 @@ img {
     color: #FFF;
     font-family: Playfair Display;
     font-size: 48px;
-    font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-align: center;
@@ -338,16 +297,14 @@ img {
 .order-input {
     color: var(--add-color);
     width: 580px;
-    font-family: Roboto;
     font-size: 28px;
-    font-style: normal;
-    font-weight: 400;
     line-height: normal;
     border-radius: 50px;
     padding: 11px 0;
     padding-left: 24px;
     border: none;
     outline: none;
+    transition: 0.7s;
 }
 .order-input:hover, .order-input:focus{
     cursor: pointer;
@@ -355,17 +312,13 @@ img {
 }
 .form-button {
     color: #8D8D8D;
-    font-family: Roboto;
     font-size: 28px;
-    font-style: normal;
-    font-weight: 400;
     line-height: normal;
     background: none;
     border: none;
     position: absolute; 
     top: 7.8px;
     right: 50px;
-    text-align: center;
 }
 .order-input:focus + .form-button { 
     top: 13.16px;
@@ -374,18 +327,17 @@ img {
 .order-btn {
     padding: 20px 48px;
     color: #FFF;
-    font-family: Roboto;
     font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
     line-height: normal;
     border: none;
     border-radius: 16px;
     background: #8E32C6;
+    transition: 0.7s;
 }
-
+.order-btn:hover, .order-btn:focus {
+    background-color: #012D63;
+}
                                                /* footer*/
-
 .footer {
     background-color: #021635;
     padding-top: 45px;
@@ -402,25 +354,20 @@ img {
 .address-item:not(:last-child) {
     margin-bottom: 10px;
 }
-.address-text, .address-link {
-   display: inline;
-}
 .address-text {
     color: var(--main-color);
-    font-family: Roboto;
     font-size: 24px;
     font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 .address-link {
     color: var(--main-color);
-    font-family: Roboto;
     font-size: 24px;
     font-style: normal;
-    font-weight: 400;
     line-height: normal;
-    text-decoration-line: underline;
+    transition: 0.5s;
+}
+.address-link:hover, .address-link:focus {
+    color: var(--add-color);
 }
 .privacy-policy {
     display: flex;
@@ -432,24 +379,16 @@ img {
 .copyright {
     color: var(--main-color);
     font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 .country {
     color: var(--main-color);
     font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;  
     margin-top: 7px;
 }
 .cr-logo {
     color: #FFF;
     font-family: PT Serif;
     font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
     line-height: normal;
     margin-top: -15px;
 }
